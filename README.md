@@ -1,28 +1,33 @@
-# 🌲 Cypress, do Zero à Nuvem ☁️
+# Cypress do Zero à Nuvem.
 
-👋 Seja bem-vindo(a)!
+Projeto exemplo do curso "Cypress do Zero à Nuvem" da escola Talking About Testing.
 
-É muito bom tê-lo(a) aqui. Tenho certeza que você vai amar esse curso. ❤️
+## Pre-Requisitos
 
-## O que você vai aprender?
+É requisito que você tenha instalado o git, Node.js e npm para rodar este projeto.
 
-- Como configurar um projeto Cypress do zero
-- Como visitar páginas locais e remotas
-- Como lidar com os elementos mais comuns encontrados em aplicações web
-- Como testar upload de arquivos
-- Como realizar as mais diversas verificações de resultados esperados
-- Como criar comandos customizados
-- Como lidar com links que abrem em outra aba do navegador
-- Como rodar testes simulando as dimensões de um dispositivo móvel
-- Como resolver os mesmos problemas de diferentes formas, conhecendo a [API do Cypress](https://docs.cypress.io/api/table-of-contents)
-- Como criar uma documentação mínima para seu projeto de testes automatizados
-- Como executar os testes em um _workflow_ de integração contínua sempre que mudanças ocorrerem no código da aplicação (ou dos testes)
-- Como integrar seu _workflow_ de integração contínua com o Cypress Cloud (o serviço de gestão de testes do Cypress na nuvem)
+Versões usadas `2.47,1`, `22.11.0`, `10.9.0` para git, Node.js e npm, respectivamente. Sugiro que voce use as mesmas ou mais atuais, desde que sejam versões LTS.
 
-## Vamos começar?
+## Instalação
 
-Vá para a seção [estrutura do curso](./lessons/_course-structure_.md).
+run npm install para instalar as dependencias de desenvolvedor.
+
+## Tests
+
+Neste projeto, você pode rodar os tests em desktop ou mobile.
+
+### Desktop
+
+run npm test - para rodar os testes em modo headless no desktop.
+OU
+run npm run cy:open para os teste no desktop com o App do Cypress.
+
+### Mobile
+
+run npm run test:mobile para rodar os testes em modo headless com visualização mobile.
+OU
+run npm run cy:open:mobilr para rodar os testes com visualização mobile com o App do Cypress.
 
 ___
 
-Este é um curso da **Escola Talking About Testing**.
+Este projeto foi executado por Alencar.
